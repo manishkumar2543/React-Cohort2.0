@@ -1,40 +1,41 @@
-import user from './test.js';
-import abcd from './test.js';
-import {skill} from './app.js';
-import king from './test.js';
-import {nam} from './test.js';
-import {Maths,Science,English} from './app.js';
-import{king1} from './app.js';
+// console.log(React)
+// console.log(ReactDOM)
 
 
-
-// console.log(user);
-console.log(skill)
-console.log(king);
-console.log(nam);
-
-console.log(Maths,Science,English);
-
-console.log(king1.name);
+// let h1=React.createElement("h1",null,"Hello World from React");
+// let container=document.getElementById("container");
+// let root=ReactDOM.createRoot(container);
+// root.render(h1)
 
 
+// let h1=React.createElement('h1',null,'i am h1 tag');
+// let h2=React.createElement('h2',null,'i am h2 tag');
+// let div=React.createElement('div',null,[h1,h2]);
+// let root=ReactDOM.createRoot(document.querySelector('#container'));
+// root.render(div);
 
 
-
-
-
-
-
-// var obj={
-//     user: 'John',
-//     age: 30,
-//     city: 'New York',
-//     skill: 'JavaScript, HTML, CSS',
+// function h1(){
+//     return React.createElement('h1',null,'i am h1 tag');
 // }
-// var {user}=obj;
-// console.log(user);,
-// var {skill}=obj;
-// var [First,...restSkill]=skill;
-// console.log(restSkill);
+
+// let root=ReactDOM.createRoot(document.getElementById('container'))
+// root.render(h1());
 
 
+
+// const h1=()=>React.createElement('h1',null,'i am h1 tag');
+// const root=ReactDOM.createRoot(document.getElementById('container'));
+// root.render(h1());
+
+
+
+// import box from './app.js';
+// import circle from './test.js';
+// const root=ReactDOM.createRoot(document.querySelector('#container'));
+// const parent=()=>React.createElement('div',null,[box(),circle()]);
+// root.render(parent());
+
+import parent from './parent.js';
+const root= ReactDOM.createRoot(document.querySelector('#container'));
+root.render(parent());

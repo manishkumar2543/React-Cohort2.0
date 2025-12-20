@@ -1,17 +1,5 @@
-
-// var user='John';
-
-let king={
-    name: 'John',
-    age: 30,
-    city: 'New York',
+const circle=()=>{
+    return React.createElement('div',{id:'circle'},'This is a circle');
 
 }
-
-export default king;
-
-// nemed export👈
-export const nam='John';
-
-
-// export default user;
+export default circle;

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+}
+#circle{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+ 
+}
